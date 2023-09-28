@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>橙云互联</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin: 10px;
+      overflow: hidden;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-wrapper" onclick="navigate('https://card.cheng522.cn/branch/cll.html')">
+      <img src="pic/CLL.JPG" alt="Image 1">
+    </div>
+    <div class="image-wrapper" onclick="navigate('https://card.cheng522.cn/branch/dll.html')">
+      <img src="pic/DLL.JPG" alt="Image 2">
+    </div>
+    <div class="image-wrapper" onclick="navigate('https://card.cheng522.cn/branch/KF.html')">
+      <img src="pic/KF0.JPG" alt="Image 5">
+    </div>
+    </div>
+  </div>
+  <script>
+    function navigate(url) {
+      window.location.href = url;
+    }
+  </script>
+  <body background="pic/BJ.JPG"
+               style="background-repeat:no-repeat
+               background-attachment:fixed;
+               background-size:100% 100%; ">
+         </body>
+</body>
+</html>
